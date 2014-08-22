@@ -4,7 +4,7 @@ author: "Jeremy Benson"
 date: "Thursday, August 21, 2014"
 output: html_document
 ---
-This document explains the code that was used to extract the data "Human Activity Recognition Using Smartphones Data Set" and calculate average means and standard deviations by Subject and Activity Type. See codebook.html for a description of the fields in the resulting dataset.
+This document explains the code that was used to extract the data "Human Activity Recognition Using Smartphones Data Set" and calculate average means and standard deviations by Subject and Activity Type. See codebook.md for a description of the fields in the resulting dataset.
 ## Step 1 - Merge Test and Train Datasets
 Read in 3 datasets each from the Test and Train Datasets. The testRaw dataset is a list of values (field names added later). The testSub has Subjects numbered from 1 to 30. The testLabels dataset has labels corresponding to the type of activity. These 3 datasets are then combined.
 A similar process is done with the train datasets and then the overall test and train datasets are combined.
